@@ -4,7 +4,6 @@ using System.Collections;
 public class Attack : MonoBehaviour {
 
 	public ParticleSystem fireCone;
-	public float fireballForce = 10f;
 	public float fireballLength = 0.2f;
 	public float fireballCooldown = 0.4f;
 
