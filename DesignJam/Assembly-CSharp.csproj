@@ -68,9 +68,14 @@
      <None Include="Assets\OculusMacSDK\OculusSDK\READ_ME_FIRST.txt" />
      <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
      <None Include="Assets\OculusMacSDK\OculusSDK\Release_Notes.txt" />
+     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\OculusMacSDK\OculusSDK\LICENSE.txt" />
      <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
      <None Include="Assets\OculusMacSDK\OculusSDK\Samples\OculusWorldDemo\Assets\Tuscany\Tuscany.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{868D6990-DB82-0B5A-9473-541024E0BDB5}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
