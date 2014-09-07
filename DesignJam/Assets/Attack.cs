@@ -62,7 +62,7 @@ public class Attack : MonoBehaviour {
 			
 		}
 
-		if (!isShooting && Tapped) {
+		if (!isShooting && (Tapped || Input.GetKeyDown(KeyCode.Space))) {
 			StartCoroutine(FireCooldown());		
 			shockWave.Emit(100);
 		}
