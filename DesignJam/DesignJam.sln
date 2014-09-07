@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{D6536B8D-C9E3-1B94-5018-64D958F38E7B}") = "DesignJam", "Assembly-CSharp-firstpass.csproj", "{868D6990-DB82-0B5A-9473-541024E0BDB5}"
+EndProject
 Project("{D6536B8D-C9E3-1B94-5018-64D958F38E7B}") = "DesignJam", "Assembly-CSharp.csproj", "{D868D8EB-D02F-0E7D-67D7-0B56E0750048}"
 EndProject
 Project("{D6536B8D-C9E3-1B94-5018-64D958F38E7B}") = "DesignJam", "Assembly-CSharp-Editor.csproj", "{82F5BE0E-415C-50B0-CBCC-40FE7B4DDE01}"
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{868D6990-DB82-0B5A-9473-541024E0BDB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{868D6990-DB82-0B5A-9473-541024E0BDB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{868D6990-DB82-0B5A-9473-541024E0BDB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{868D6990-DB82-0B5A-9473-541024E0BDB5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D868D8EB-D02F-0E7D-67D7-0B56E0750048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D868D8EB-D02F-0E7D-67D7-0B56E0750048}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D868D8EB-D02F-0E7D-67D7-0B56E0750048}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -23,7 +29,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-									GlobalSection(MonoDevelopProperties) = preSolution
+										GlobalSection(MonoDevelopProperties) = preSolution
 =======
 								GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> FETCH_HEAD
