@@ -64,6 +64,7 @@
      <Compile Include="Assets\OVR\Scripts\OVRVisionGuide.cs" />
      <Compile Include="Assets\ParticleCollision.cs" />
      <Compile Include="Assets\Pixelplacement\iTweenPath\iTweenPath.cs" />
+     <Compile Include="Assets\PlayVideo.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\OculusMacSDK\OculusSDK\OculusWorldDemo.app\Contents\Resources\Assets\Tuscany\Tuscany.xml" />
      <None Include="Assets\OculusMacSDK\OculusSDK\READ_ME_FIRST.txt" />
