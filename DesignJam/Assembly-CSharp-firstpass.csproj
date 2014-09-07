@@ -50,6 +50,7 @@
      <Compile Include="Assets\Plugins\Pixelplacement\iTween\Sample\RotateSample.cs" />
      <Compile Include="Assets\Plugins\Pixelplacement\iTween\Sample\SampleInfo.cs" />
      <Compile Include="Assets\Plugins\Pixelplacement\iTween\iTween.cs" />
+     <Compile Include="Assets\Plugins\Pixelplacement\iTween\playerMovement.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\OculusMacSDK\OculusSDK\OculusWorldDemo.app\Contents\Resources\Assets\Tuscany\Tuscany.xml" />
      <None Include="Assets\OculusMacSDK\OculusSDK\READ_ME_FIRST.txt" />
