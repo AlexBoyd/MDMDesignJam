@@ -56,9 +56,14 @@
      <Compile Include="Assets\OVR\Editor\OVRUGUIEditor.cs" />
      <Compile Include="Assets\Pixelplacement\iTweenPath\Editor\iTweenPathEditor.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\OculusMacSDK\OculusSDK\OculusWorldDemo.app\Contents\Resources\Assets\Tuscany\Tuscany.xml" />
      <None Include="Assets\OculusMacSDK\OculusSDK\READ_ME_FIRST.txt" />
      <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
      <None Include="Assets\OculusMacSDK\OculusSDK\Release_Notes.txt" />
      <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\OculusMacSDK\OculusSDK\LICENSE.txt" />
