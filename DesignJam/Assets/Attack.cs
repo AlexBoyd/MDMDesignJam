@@ -3,80 +3,72 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-public class Attack : MonoBehaviour {
+public class Attack : MonoBehaviour
+{
 
-	public ParticleSystem fireCone;
-	public ParticleSystem shockWave;
-	public float fireballLength = 0.2f;
-	public float fireballCooldown = 0.4f;
+    public ParticleSystem fireCone;
+    public ParticleSystem shockWave;
+    public float fireballLength = 0.2f;
+    public float fireballCooldown = 0.4f;
+    public AudioSource AttackSound;
 
-	public static bool Tapped {get; set;}
-	
-	// Tap calculation variables 
-	public float RequiredMultipleOfAverage = 4;
-	public int MinMagnitudeToCheck = 1;
-	public int NumAccelerationSamples = 6;
-	public Queue<float> YAccels = new Queue<float>();
-	public List<float> Dadtvalues = new List<float>();
-	
-	// 
-	private float lastXAccel = 0;
-	private float lastYAccel = 0;
-	private float lastZAccel = 0;
+    private AudioClip clipRecord;
 
+    public static bool Tapped { get; set; }
+   
+    public float MaxFireConeParticleLifetime = 5; 
+    // 
+    private float lastXAccel = 0;
+    private float lastYAccel = 0;
+    private float lastZAccel = 0;
 
-	private bool isShooting = false;
-	
-	void Start()
-	{
-		fireCone.enableEmission = false;
-		shockWave.enableEmission = false;
-		}
-	// Update is called once per frame
-	void Update () 
-	{
-		//Update y accelerations
-		if (OVRDevice.GetAcceleration(ref lastXAccel, ref lastYAccel, ref lastZAccel))
-		{
-			YAccels.Enqueue(lastYAccel);
-			
-			if(YAccels.Count > NumAccelerationSamples)
-			{
-				YAccels.Dequeue();
-			}
-		}
-		if(YAccels.Count == NumAccelerationSamples)
-		{
-			
-			//Update differences
-			Dadtvalues.Clear();
-			
-			for (int i = 1; i < YAccels.Count; i++)
-			{
-				Dadtvalues.Add(Mathf.Abs(YAccels.ElementAt(i) - YAccels.ElementAt(i-1)));
-			}
-			
-			//Check for taps
-			float avg = Dadtvalues.Average((val) => Mathf.Abs(val));
-			Tapped = Dadtvalues.Any(val => Mathf.Abs(val) > avg * RequiredMultipleOfAverage && Mathf.Abs(val) > MinMagnitudeToCheck); 
-			
-		}
+    public int SpaceEmitNum = 200;
+    public float SpaceEmitSpeed = 25;
 
-		if (!isShooting && (Tapped || Input.GetKeyDown(KeyCode.Space))) {
-			StartCoroutine(FireCooldown());		
-			shockWave.Emit(100);
-		}
+    private bool isShooting = false;
 
-	}
+    void Start ()
+    {
+        fireCone.enableEmission = false;
+        shockWave.enableEmission = false;
 
-	private IEnumerator FireCooldown()
-	{
-		isShooting = true;
-		fireCone.enableEmission = true;
-		yield return new WaitForSeconds(fireballLength);
-		fireCone.enableEmission = false;
-		yield return new WaitForSeconds(fireballCooldown);
-		isShooting = false;
-	}
+        clipRecord = Microphone.Start(null, true, 999, 44100);
+    }
+    // Update is called once per frame
+    void FixedUpdate ()
+    {
+        int dec = 128;
+        float[] waveData = new float[dec];
+
+        int micPosition = Microphone.GetPosition(null)-(dec+1); // null means the first microphone
+        if (micPosition >= 0)
+        {
+            clipRecord.GetData (waveData, micPosition);
+            
+            // Getting a peak on the last 128 samples
+            float levelMax = 0;
+            for (int i = 0; i < dec; i++)
+            {
+                float wavePeak = waveData [i] * waveData [i];
+                if (levelMax < wavePeak)
+                {
+                    levelMax = wavePeak;
+                }
+            }
+            // levelMax equals to the highest normalized value power 2, a small number because < 1
+            // use it like:
+
+            OVRDevice.GetAcceleration (ref lastXAccel, ref lastYAccel, ref lastZAccel);
+            
+            float absY = Mathf.Abs(lastYAccel);
+            Debug.Log((Mathf.Sqrt (levelMax * absY)) * 2);
+            fireCone.Emit(Mathf.FloorToInt((Mathf.Sqrt (levelMax * absY))));
+        }
+
+        if (Input.GetKeyUp (KeyCode.Space))
+        {
+            fireCone.Emit(SpaceEmitNum);
+        }
+    }
 
 }
