@@ -62,7 +62,7 @@ public class Attack : MonoBehaviour
             
             float absY = Mathf.Abs(lastYAccel);
             Debug.Log((Mathf.Sqrt (levelMax * absY)) * 2);
-            fireCone.Emit(Mathf.FloorToInt((Mathf.Sqrt (levelMax * absY))));
+            fireCone.Emit(Mathf.FloorToInt((Mathf.Sqrt (levelMax * absY)) * 10));
         }
 
         if (Input.GetKeyUp (KeyCode.Space))
