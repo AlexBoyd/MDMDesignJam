@@ -6,6 +6,7 @@ public class UserTestToggles : MonoBehaviour {
 	public float Height1 = 15;
 	public float Height2 = 1;
 	public CharacterController cc;
+	public Attack attack;
 	// Use this for initialization
 	void Start () {
 		
@@ -22,6 +23,19 @@ public class UserTestToggles : MonoBehaviour {
 		{
 			cc.height = Height2;
 		}
+		if (Input.GetKeyDown (KeyCode.Alpha3)) 
+		{
+			attack.UseTap = true;
+		}
+		if (Input.GetKeyDown (KeyCode.Alpha4)) 
+		{
+			attack.UseTap = false;
+		}
+		if (Input.GetKeyDown (KeyCode.Alpha5)) 
+		{
+			Application.LoadLevel(Application.loadedLevel);
+		}
+
 
 	}
 }
