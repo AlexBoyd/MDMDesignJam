@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Attack.cs" />
-     <Compile Include="Assets\CustomFoV.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCamera.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCameraController.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCrosshair.cs" />
@@ -65,6 +64,7 @@
      <Compile Include="Assets\ParticleCollision.cs" />
      <Compile Include="Assets\Pixelplacement\iTweenPath\iTweenPath.cs" />
      <Compile Include="Assets\PlayVideo.cs" />
+     <Compile Include="Assets\UserTestToggles.cs" />
      <Compile Include="Assets\playerMovement2.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
