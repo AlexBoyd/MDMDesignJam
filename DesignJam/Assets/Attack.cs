@@ -12,6 +12,8 @@ public class Attack : MonoBehaviour
     public float fireballCooldown = 0.4f;
     public AudioSource AttackSound;
 
+	public bool UseTap = true;
+
     private AudioClip clipRecord;
 
     public static bool Tapped { get; set; }
@@ -60,9 +62,9 @@ public class Attack : MonoBehaviour
 
             OVRDevice.GetAcceleration (ref lastXAccel, ref lastYAccel, ref lastZAccel);
             
-            float absY = Mathf.Abs(lastYAccel);
-            Debug.Log((Mathf.Sqrt (levelMax * absY)) * 2);
-            fireCone.Emit(Mathf.FloorToInt((Mathf.Sqrt (levelMax * absY))));
+            float absY = UseTap ? Mathf.Abs(lastYAccel) : 1;
+            
+            fireCone.Emit(Mathf.FloorToInt((Mathf.Sqrt (levelMax * absY)) * 10));
         }
 
         if (Input.GetKeyUp (KeyCode.Space))
