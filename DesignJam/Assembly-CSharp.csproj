@@ -81,6 +81,7 @@
      <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\OculusMacSDK\OculusSDK\LICENSE.txt" />
      <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
+     <None Include="Assets\TinyOrc\Documents\Readme.txt" />
      <None Include="Assets\OculusMacSDK\OculusSDK\Samples\OculusWorldDemo\Assets\Tuscany\Tuscany.xml" />
   </ItemGroup>
   <ItemGroup>
