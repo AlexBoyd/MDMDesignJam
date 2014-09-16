@@ -11,12 +11,14 @@
 /*.userprefs
 /*.pidb
 /*.booproj
-/*.sln
+*.sln
 
 
 *.userprefs
 
 *.userprefs
+
+*.sln
 
 *.sln
 
