@@ -1,0 +1,601 @@
+Initialize engine version: 4.5.4f1 (e036f44c54c9)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 650M  (ID=0xfd1)
+    Vendor:   NVIDIA
+    VRAM:     1985 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Alex\Documents\RageStorm\MDMDesignJam\DesignJam\RageStorm_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Alex\Documents\RageStorm\MDMDesignJam\DesignJam\RageStorm_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Alex\Documents\RageStorm\MDMDesignJam\DesignJam\RageStorm_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Alex\Documents\RageStorm\MDMDesignJam\DesignJam\RageStorm_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Alex\Documents\RageStorm\MDMDesignJam\DesignJam\RageStorm_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Alex\Documents\RageStorm\MDMDesignJam\DesignJam\RageStorm_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.047 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 59Hz; virtual: 1920x1080 at 0,0
+WARNING: Shader Unsupported: 'Toon/Basic Outline' - Pass 'OUTLINE' shader state not supported
+Platform assembly: C:\Users\Alex\Documents\RageStorm\MDMDesignJam\DesignJam\RageStorm_Data\Managed\System.dll (this message is harmless)
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 26.253679 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 12.983747 ms (FindLiveObjects: 0.353291 ms CreateObjectMapping: 0.034737 ms MarkObjects: 0.546713 ms  DeleteObjects: 11.489661 ms)
+
+UnloadTime: 36.075569 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 1.545402 ms (FindLiveObjects: 0.371054 ms CreateObjectMapping: 0.021710 ms MarkObjects: 0.698687 ms  DeleteObjects: 0.018157 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 52.444202 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 24.557882 ms (FindLiveObjects: 0.401449 ms CreateObjectMapping: 0.025263 ms MarkObjects: 0.766187 ms  DeleteObjects: 22.864849 ms)
+
+UnloadTime: 51.064987 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 1.644086 ms (FindLiveObjects: 0.419607 ms CreateObjectMapping: 0.022500 ms MarkObjects: 0.709740 ms  DeleteObjects: 0.018552 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 53.369469 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 14.840993 ms (FindLiveObjects: 0.346580 ms CreateObjectMapping: 0.022105 ms MarkObjects: 0.797372 ms  DeleteObjects: 13.153485 ms)
+
+UnloadTime: 36.955048 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 2.260274 ms (FindLiveObjects: 0.473291 ms CreateObjectMapping: 0.033947 ms MarkObjects: 1.033031 ms  DeleteObjects: 0.027631 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 62.114120 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 21.725632 ms (FindLiveObjects: 0.376975 ms CreateObjectMapping: 0.022894 ms MarkObjects: 0.756714 ms  DeleteObjects: 20.040491 ms)
+
+UnloadTime: 24.172617 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 1.556849 ms (FindLiveObjects: 0.371054 ms CreateObjectMapping: 0.021710 ms MarkObjects: 0.709740 ms  DeleteObjects: 0.016579 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 30.411068 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 15.688103 ms (FindLiveObjects: 0.357238 ms CreateObjectMapping: 0.031184 ms MarkObjects: 0.793819 ms  DeleteObjects: 14.015989 ms)
+
+UnloadTime: 60.750294 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 1.589613 ms (FindLiveObjects: 0.352896 ms CreateObjectMapping: 0.021315 ms MarkObjects: 0.703029 ms  DeleteObjects: 0.017368 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 28.663166 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 16.832846 ms (FindLiveObjects: 0.344606 ms CreateObjectMapping: 0.024079 ms MarkObjects: 0.971846 ms  DeleteObjects: 14.852835 ms)
+
+UnloadTime: 55.308033 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 1.562376 ms (FindLiveObjects: 0.365922 ms CreateObjectMapping: 0.024079 ms MarkObjects: 0.686055 ms  DeleteObjects: 0.017763 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 30.146198 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 16.245079 ms (FindLiveObjects: 0.403423 ms CreateObjectMapping: 0.026842 ms MarkObjects: 0.825398 ms  DeleteObjects: 14.480991 ms)
+
+UnloadTime: 24.228670 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 1.567902 ms (FindLiveObjects: 0.347370 ms CreateObjectMapping: 0.021710 ms MarkObjects: 0.703029 ms  DeleteObjects: 0.018552 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 35.308197 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 26.166838 ms (FindLiveObjects: 0.371843 ms CreateObjectMapping: 0.022894 ms MarkObjects: 0.804082 ms  DeleteObjects: 24.446566 ms)
+
+UnloadTime: 58.795547 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 1.580928 ms (FindLiveObjects: 0.358817 ms CreateObjectMapping: 0.024079 ms MarkObjects: 0.725135 ms  DeleteObjects: 0.017763 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 59.505287 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 23.644062 ms (FindLiveObjects: 0.381712 ms CreateObjectMapping: 0.023289 ms MarkObjects: 0.768556 ms  DeleteObjects: 21.851160 ms)
+
+UnloadTime: 54.205921 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 2.409880 ms (FindLiveObjects: 0.506844 ms CreateObjectMapping: 0.036315 ms MarkObjects: 1.076847 ms  DeleteObjects: 0.029605 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 29.442379 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 15.454417 ms (FindLiveObjects: 0.367896 ms CreateObjectMapping: 0.022105 ms MarkObjects: 0.753951 ms  DeleteObjects: 13.811909 ms)
+
+UnloadTime: 61.898983 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 1.666981 ms (FindLiveObjects: 0.450396 ms CreateObjectMapping: 0.021315 ms MarkObjects: 0.718424 ms  DeleteObjects: 0.018552 ms)
+
+UnloadTime: 23.726168 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 14.519280 ms (FindLiveObjects: 0.354475 ms CreateObjectMapping: 0.023684 ms MarkObjects: 0.748029 ms  DeleteObjects: 12.729140 ms)
+
+UnloadTime: 47.082859 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 2.031325 ms (FindLiveObjects: 0.440923 ms CreateObjectMapping: 0.029605 ms MarkObjects: 0.923688 ms  DeleteObjects: 0.025263 ms)
+
+UnloadTime: 23.231165 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 22.057213 ms (FindLiveObjects: 0.394344 ms CreateObjectMapping: 0.022105 ms MarkObjects: 0.746845 ms  DeleteObjects: 20.234308 ms)
+
+UnloadTime: 36.451756 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 1.580139 ms (FindLiveObjects: 0.348949 ms CreateObjectMapping: 0.021315 ms MarkObjects: 0.739345 ms  DeleteObjects: 0.016579 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 34.034374 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 25.642624 ms (FindLiveObjects: 0.371054 ms CreateObjectMapping: 0.024473 ms MarkObjects: 0.884609 ms  DeleteObjects: 23.832354 ms)
+
+UnloadTime: 38.392685 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 1.535928 ms (FindLiveObjects: 0.346580 ms CreateObjectMapping: 0.024473 ms MarkObjects: 0.705003 ms  DeleteObjects: 0.017763 ms)
+
+UnloadTime: 45.021534 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 15.313890 ms (FindLiveObjects: 0.371449 ms CreateObjectMapping: 0.032368 ms MarkObjects: 0.925662 ms  DeleteObjects: 13.477960 ms)
+
+UnloadTime: 56.418827 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 1.571455 ms (FindLiveObjects: 0.345001 ms CreateObjectMapping: 0.021315 ms MarkObjects: 0.716450 ms  DeleteObjects: 0.016973 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 42.625469 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 18.733906 ms (FindLiveObjects: 0.497765 ms CreateObjectMapping: 0.022894 ms MarkObjects: 0.798556 ms  DeleteObjects: 16.933897 ms)
+
+UnloadTime: 60.530426 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 1.994614 ms (FindLiveObjects: 0.483554 ms CreateObjectMapping: 0.037500 ms MarkObjects: 1.018426 ms  DeleteObjects: 0.018552 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 32.757397 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 20.368126 ms (FindLiveObjects: 0.350133 ms CreateObjectMapping: 0.023684 ms MarkObjects: 0.750793 ms  DeleteObjects: 18.596931 ms)
+
+UnloadTime: 49.111816 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 1.648034 ms (FindLiveObjects: 0.371054 ms CreateObjectMapping: 0.024868 ms MarkObjects: 0.749214 ms  DeleteObjects: 0.018947 ms)
+
+UnloadTime: 24.564198 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 23.136822 ms (FindLiveObjects: 0.346185 ms CreateObjectMapping: 0.022894 ms MarkObjects: 0.792635 ms  DeleteObjects: 21.302473 ms)
+
+UnloadTime: 36.973995 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 1.598297 ms (FindLiveObjects: 0.361975 ms CreateObjectMapping: 0.021710 ms MarkObjects: 0.728687 ms  DeleteObjects: 0.017368 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 63.123466 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 22.204844 ms (FindLiveObjects: 0.352501 ms CreateObjectMapping: 0.022500 ms MarkObjects: 0.747635 ms  DeleteObjects: 20.561943 ms)
+
+UnloadTime: 48.139969 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 9712.
+Total: 2.527512 ms (FindLiveObjects: 0.534081 ms CreateObjectMapping: 0.041842 ms MarkObjects: 1.134084 ms  DeleteObjects: 0.030789 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UserTestToggles.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
