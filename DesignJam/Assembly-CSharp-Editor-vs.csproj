@@ -55,8 +55,10 @@
      <Compile Include="Assets\OVR\Editor\OVRShimLoader.cs" />
      <Compile Include="Assets\OVR\Editor\OVRUGUIEditor.cs" />
      <Compile Include="Assets\Pixelplacement\iTweenPath\Editor\iTweenPathEditor.cs" />
+     <None Include="Assets\Earthborn Troll\Shader\Alpha_Texture.shader" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\Earthborn Troll\Shader\DoubleSided-Light-Spec.shader" />
      <None Include="Assets\OculusMacSDK\OculusSDK\OculusWorldDemo.app\Contents\Resources\Assets\Tuscany\Tuscany.xml" />
      <None Include="Assets\OculusMacSDK\OculusSDK\READ_ME_FIRST.txt" />
      <None Include="Assets\OVR\Shaders\TextShader3D.shader" />

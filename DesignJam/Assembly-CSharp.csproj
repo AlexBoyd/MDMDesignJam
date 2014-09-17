@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Attack.cs" />
+     <Compile Include="Assets\CustomFoV.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCamera.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCameraController.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCrosshair.cs" />
@@ -66,8 +67,10 @@
      <Compile Include="Assets\PlayVideo.cs" />
      <Compile Include="Assets\UserTestToggles.cs" />
      <Compile Include="Assets\playerMovement2.cs" />
+     <None Include="Assets\Earthborn Troll\Shader\Alpha_Texture.shader" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\Earthborn Troll\Shader\DoubleSided-Light-Spec.shader" />
      <None Include="Assets\OculusMacSDK\OculusSDK\OculusWorldDemo.app\Contents\Resources\Assets\Tuscany\Tuscany.xml" />
      <None Include="Assets\OculusMacSDK\OculusSDK\READ_ME_FIRST.txt" />
      <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
