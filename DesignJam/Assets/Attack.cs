@@ -32,10 +32,14 @@ public class Attack : MonoBehaviour
     void Start ()
     {
         fireCone.enableEmission = false;
-        shockWave.enableEmission = false;
+        //shockWave.enableEmission = false;
 
-        clipRecord = Microphone.Start(null, true, 999, 44100);
+        clipRecord = Microphone.Start(null, true, 1, 44100);
+		AttackSound.clip = clipRecord;
+		AttackSound.PlayDelayed(0.2f);
     }
+
+
     // Update is called once per frame
     void FixedUpdate ()
     {
@@ -59,12 +63,11 @@ public class Attack : MonoBehaviour
             }
             // levelMax equals to the highest normalized value power 2, a small number because < 1
             // use it like:
+			            
+			fireCone.startColor = new Color(0.3f + (levelMax * 10f), 0.2f + (levelMax * 2f), 0f);
+			fireCone.startSpeed = Mathf.Max(Mathf.FloorToInt(Mathf.Sqrt(levelMax) * 10) * 10f, 25);
+            fireCone.Emit(Mathf.FloorToInt(Mathf.Sqrt(levelMax) * 10));
 
-            OVRDevice.GetAcceleration (ref lastXAccel, ref lastYAccel, ref lastZAccel);
-            
-            float absY = UseTap ? Mathf.Abs(lastYAccel) : 1;
-            
-            fireCone.Emit(Mathf.FloorToInt((Mathf.Sqrt (levelMax * absY)) * 10));
         }
 
         if (Input.GetKeyUp (KeyCode.Space))
