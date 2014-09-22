@@ -59,12 +59,10 @@ public class Attack : MonoBehaviour
             }
             // levelMax equals to the highest normalized value power 2, a small number because < 1
             // use it like:
-
-            OVRDevice.GetAcceleration (ref lastXAccel, ref lastYAccel, ref lastZAccel);
-            
-            float absY = UseTap ? Mathf.Abs(lastYAccel) : 1;
-            
-            fireCone.Emit(Mathf.FloorToInt((Mathf.Sqrt (levelMax * absY)) * 10));
+			            
+			fireCone.startColor = new Color(0.3f + (levelMax * 10f), 0.2f + (levelMax * 2f), 0f);
+			fireCone.startSpeed = Mathf.Max(Mathf.FloorToInt(Mathf.Sqrt(levelMax) * 10) * 10f, 25);
+            fireCone.Emit(Mathf.FloorToInt(Mathf.Sqrt(levelMax) * 10));
         }
 
         if (Input.GetKeyUp (KeyCode.Space))
