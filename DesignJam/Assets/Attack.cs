@@ -34,8 +34,12 @@ public class Attack : MonoBehaviour
         fireCone.enableEmission = false;
         shockWave.enableEmission = false;
 
-        clipRecord = Microphone.Start(null, true, 999, 44100);
+        clipRecord = Microphone.Start(null, true, 1, 44100);
+		AttackSound.clip = clipRecord;
+		AttackSound.PlayDelayed(0.1f);
     }
+
+
     // Update is called once per frame
     void FixedUpdate ()
     {
@@ -63,6 +67,7 @@ public class Attack : MonoBehaviour
 			fireCone.startColor = new Color(0.3f + (levelMax * 10f), 0.2f + (levelMax * 2f), 0f);
 			fireCone.startSpeed = Mathf.Max(Mathf.FloorToInt(Mathf.Sqrt(levelMax) * 10) * 10f, 25);
             fireCone.Emit(Mathf.FloorToInt(Mathf.Sqrt(levelMax) * 10));
+
         }
 
         if (Input.GetKeyUp (KeyCode.Space))
