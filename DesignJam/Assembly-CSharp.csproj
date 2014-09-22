@@ -67,6 +67,7 @@
      <Compile Include="Assets\PlayVideo.cs" />
      <Compile Include="Assets\UserTestToggles.cs" />
      <Compile Include="Assets\playerMovement2.cs" />
+     <Compile Include="Assets\walkSound.cs" />
      <None Include="Assets\Earthborn Troll\Shader\Alpha_Texture.shader" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />

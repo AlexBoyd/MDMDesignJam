@@ -32,11 +32,11 @@ public class Attack : MonoBehaviour
     void Start ()
     {
         fireCone.enableEmission = false;
-        shockWave.enableEmission = false;
+        //shockWave.enableEmission = false;
 
         clipRecord = Microphone.Start(null, true, 1, 44100);
 		AttackSound.clip = clipRecord;
-		AttackSound.PlayDelayed(0.1f);
+		AttackSound.PlayDelayed(0.2f);
     }
 
 
