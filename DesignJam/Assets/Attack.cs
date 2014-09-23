@@ -12,6 +12,8 @@ public class Attack : MonoBehaviour
     public float fireballCooldown = 0.4f;
     public AudioSource AttackSound;
 
+	public float ParticleStrengthScale = 5;
+
 	public bool UseTap = true;
 
     private AudioClip clipRecord;
@@ -64,9 +66,9 @@ public class Attack : MonoBehaviour
             // levelMax equals to the highest normalized value power 2, a small number because < 1
             // use it like:
 			            
-			fireCone.startColor = new Color(0.3f + (levelMax * 10f), 0.2f + (levelMax * 2f), 0f);
-			fireCone.startSpeed = Mathf.Max(Mathf.FloorToInt(Mathf.Sqrt(levelMax) * 10) * 10f, 25);
-            fireCone.Emit(Mathf.FloorToInt(Mathf.Sqrt(levelMax) * 10));
+			fireCone.startColor = new Color(0.3f + (levelMax * ParticleStrengthScale), 0.2f + (levelMax * 2f), 0f);
+			fireCone.startSpeed = Mathf.Max(Mathf.FloorToInt(Mathf.Sqrt(levelMax) * ParticleStrengthScale) * 10f, 25);
+			fireCone.Emit(Mathf.FloorToInt(Mathf.Sqrt(levelMax) * ParticleStrengthScale));
 
         }
 

@@ -242,16 +242,29 @@ public class OVRPlayerController : MonoBehaviour
 		if (Input.GetKey(KeyCode.UpArrow))    moveForward = true;
 		if (Input.GetKey(KeyCode.LeftArrow))  moveLeft 	  = true;
 		if (Input.GetKey(KeyCode.DownArrow))  moveBack 	  = true; 
-		if (Input.GetKey(KeyCode.RightArrow)) moveRight   = true; 
+		if (Input.GetKey(KeyCode.RightArrow)) moveRight   = true;
 
+		if (Application.platform == RuntimePlatform.OSXEditor || Application.platform == RuntimePlatform.OSXPlayer) 
+		{
+			// Joystick
+			if (Input.GetAxis ("Vertical") > 0)
+					moveForward = true;
+			if (Input.GetAxis ("Horizontal") < 0)
+					moveLeft = true;
+			if (Input.GetAxis ("Vertical") < 0)
+					moveBack = true;
+			if (Input.GetAxis ("Horizontal") > 0)
+					moveRight = true;
+		}
 		// D-Pad
 		bool dpad_move = false;
+
 		if(OVRGamepadController.GPC_GetButton((int)OVRGamepadController.Button.Up) == true)
 		{
 			moveForward = true;
 			dpad_move   = true;
-	
-		}	
+		}
+
 		if(OVRGamepadController.GPC_GetButton((int)OVRGamepadController.Button.Down) == true)
 		{
 			moveBack  = true; 
